@@ -1,24 +1,23 @@
-# E-Commerce Backend
-[![wakatime](https://wakatime.com/badge/github/lukecp5/e-commerce-backend.svg)](https://wakatime.com/badge/github/lukecp5/e-commerce-backend)    
+# Noknots
+[![wakatime](https://wakatime.com/badge/github/lukecp5/noknots.svg)](https://wakatime.com/badge/github/lukecp5/noknots)    
 
-Internet retail, also known as **e-commerce**, is the largest sector of the electronics industry, generating an estimated $29 trillion in 2019. E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes. The goal of this project was to understand the fundamental architecture of these platforms. 
+Noknots is a SaaS platform designed to simplify the onboarding process and the maintaining of e-commerce products. It automatically crawls the websites of e-commerce sellers, imports and displays some of their products with the proper classification, allergens, and small description already pre-filled. 
 
-The E-Commerce Backend is a REST API for an internet retail website. The API is built onto an Express.js server that uses [Sequelize](https://sequelize.org/master/) to interact with a MySQL database. Sequelize is a promise-based Node.js ORM(Object Relation Mapping) for Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server.
+The Noknots backend is a REST API built on an Express.js server that uses [Sequelize](https://sequelize.org/master/) to interact with a MySQL database, which will serve as place to store all customer and product data. Sequelize is a promise-based Node.js ORM(Object Relation Mapping) for Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server which will be used to help maintaining a clean database access.
 
-This E-Commerce backend has the API routes that point to each of the standard [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) operations for each data group. The routes can be used to:
+This backend has the API routes that point to each of the standard [CRUD] operations for each data group. The routes can be used to:
 - Create categories, products, tags
 - View categories, products, tags
 - Establish associations between the different entities
 - Update categories, products, & tags
 - Delete entries from the database
 
-All that's missing to make this a complete E-Commerce website is a simple front-end application that makes calls to the API routes that are already built-in. If that's too much, simply try making requests to the API routes from your browser to the see the raw data that's returned.
+This project will gain different features over the next months and an MVP will be created out of it into the branch called 'mvp'.
 
----
 
 ## **Table of contents**
 
-- [E-Commerce Backend](#e-commerce-backend)
+- [Noknots](#noknots)
   - [Table of contents](#table-of-contents)
   - [Installation](#installation)
   - [Usage](#usage)
@@ -26,19 +25,19 @@ All that's missing to make this a complete E-Commerce website is a simple front-
   - [Demo Video](#demonstration-video)
   - [Built With](#built-with)
   - [License](#license)
----
+
 ## **Installation**
 
 Start with cloning this repo on your local machine:
 
 ```sh
-$ git clone https://github.com/lukecp5/e-commerce-backend.git
-$ cd e-commerce-backend
+$ git clone https://github.com/lukecp5/noknots.git
+$ cd noknots
 ```
 
 To install and set up the application, run:
 ```sh
-$ npm install employee-tracker
+$ npm install noknots
 ```
 
 You will also need to place a .env file in the root directory of the project, in order to connect to your MySQL database. Here's an example:
@@ -50,7 +49,6 @@ DB_PASSWORD=
 DB_USER=root
 ```
 
----
 
 ## **Usage**
 <sub><sup>This section assumes you have installed the application, and created the .env file in the root directory.</sub></sup>
@@ -66,7 +64,7 @@ npm start
 
 The server is running, now you can make requests to it through your desired method. If you're new to the backend, I suggest trying out [Postman](postman.com)
 
----
+
 
 ## **Built With**
 * [**Node.js**](https://nodejs.org/en/about/)
@@ -74,12 +72,11 @@ The server is running, now you can make requests to it through your desired meth
 *  - [Express.js](https://www.npmjs.com/package/express)
 * [**Visual Studio Code**](https://code.visualstudio.com/)
 
----
+
 
 ## **Demonstration Video**
 If you'd like to see a full demo of the application, please visit the following link: [Demo Video on Google Drive](https://drive.google.com/file/d/1gdSIFayRsXjm4BekD5eJcBi1v77JLgIB/view?usp=sharing)
 
----
 
 ## **Contributing**
 
@@ -90,17 +87,14 @@ If you'd like to see a full demo of the application, please visit the following 
 5.  Push to the branch: `git push origin my-new-feature`
 6.  Submit a pull request :sunglasses:
 
----
 
 ## **Author**
-**Luke Poirrier**   
-LinkedIn: [@luke-poirrier](https://www.linkedin.com/in/luke-poirrier)  
-Email: [Luke@LukePoirrier.com](mailto:Luke@LukePoirrier.com)  
-Portfolio: [LukePoirrier.com](http://lukepoirrier.com)  
+**Josip Grgic**   
+LinkedIn: [@josipgrgic](https://www.linkedin.com/in/luke-poirrier)  
+Email: [josip.grgic@noknots.com](mailto:josip.grgic@noknots.com)  
+Portfolio: [ichundmeinewelt.com](http://ichundmeinewelt.com)  
 
----
 
 ## **License**
-This application is licensed under the MIT License, you can find the full license information [here](http://github.com/lukecp5/employee-tracker/LICENSE.txt)
-
----
+This application is licensed under the MIT License, you can find the full license information [here](http://github.com/lukecp5/noknots/LICENSE.txt)
+```

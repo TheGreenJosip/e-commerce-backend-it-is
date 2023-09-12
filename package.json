@@ -1,6 +1,6 @@
 {
-  "name": "module-13-challenge-orm",
-  "version": "1.0.0",
+  "name": "noknots-core-backend",
+  "version": "1.5.0",
   "description": "",
   "main": "server.js",
   "scripts": {
@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@work.github.com:coding-boot-camp/module-13-challenge-orm.git"
+    "url": "git@github.com:thepurplejo/noknots-core-backend.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Josip Grgic",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.3"
